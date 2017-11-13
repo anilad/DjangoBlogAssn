@@ -16,8 +16,8 @@ def show(request, number):
     response = "Placeholder to display blog {}".format(number)
     return HttpResponse(response)
 
-def edit(request):
-    response = "Placeholder to edit blog {{number}}"
+def edit(request,number):
+    response = "Placeholder to edit blog {}".format(number)
     return HttpResponse(response)
 
 def destroy(request):
